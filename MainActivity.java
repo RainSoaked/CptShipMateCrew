@@ -14,7 +14,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static ImageView imageView;
+    public static ImageView imageView1;
     public static Handler mainHandler = new Handler();
     Button rollDie;
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageView = (ImageView) findViewById(R.drawable.die1);
+        imageView1 = (ImageView) findViewById(R.id.imageView1);
 
         rollDie = findViewById(R.id.rollDie);
         rollDie.setOnClickListener( new View.OnClickListener() {
