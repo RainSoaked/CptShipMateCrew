@@ -44,6 +44,7 @@ public class ShipDriver extends MainActivity implements Runnable {
                                        @Override
                     public void run() {
                         switch (rolled) {
+
                             case 1:
                                 MainActivity.imageView1.setImageResource(R.drawable.die1);
                                 break;
@@ -67,98 +68,122 @@ public class ShipDriver extends MainActivity implements Runnable {
                     }
                 });
             }
-//            if (dieIndex == 1) {
-//                mainHandler.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        switch (rolled) {
-//                            case 1:
-//                                MainActivity.imageView.setImageResource(R.drawable.die1);
-//                            case 2:
-//                                MainActivity.imageView.setImageResource(R.drawable.die2);
-//                            case 3:
-//                                MainActivity.imageView.setImageResource(R.drawable.die3);
-//                            case 4:
-//                                MainActivity.imageView.setImageResource(R.drawable.die4);
-//                            case 5:
-//                                MainActivity.imageView.setImageResource(R.drawable.die5);
-//                            case 6:
-//                                MainActivity.imageView.setImageResource(R.drawable.die6);
-//
-//                        }
-//                    }
-//
-//                });
-//            }
-//            if (dieIndex == 2) {
-//                mainHandler.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        switch (rolled) {
-//                            case 1:
-//                                MainActivity.imageView.setImageResource(R.drawable.die1);
-//                            case 2:
-//                                MainActivity.imageView.setImageResource(R.drawable.die2);
-//                            case 3:
-//                                MainActivity.imageView.setImageResource(R.drawable.die3);
-//                            case 4:
-//                                MainActivity.imageView.setImageResource(R.drawable.die4);
-//                            case 5:
-//                                MainActivity.imageView.setImageResource(R.drawable.die5);
-//                            case 6:
-//                                MainActivity.imageView.setImageResource(R.drawable.die6);
-//
-//                        }
-//                    }
-//
-//                });
-//            }
-//            if (dieIndex == 3) {
-//                mainHandler.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        switch (rolled) {
-//                            case 1:
-//                                MainActivity.imageView.setImageResource(R.drawable.die1);
-//                            case 2:
-//                                MainActivity.imageView.setImageResource(R.drawable.die2);
-//                            case 3:
-//                                MainActivity.imageView.setImageResource(R.drawable.die3);
-//                            case 4:
-//                                MainActivity.imageView.setImageResource(R.drawable.die4);
-//                            case 5:
-//                                MainActivity.imageView.setImageResource(R.drawable.die5);
-//                            case 6:
-//                                MainActivity.imageView.setImageResource(R.drawable.die6);
-//
-//                        }
-//                    }
-//
-//                });
-//            }
-//            if (dieIndex == 4) {
-//                mainHandler.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        switch (rolled) {
-//                            case 1:
-//                                MainActivity.imageView.setImageResource(R.drawable.die1);
-//                            case 2:
-//                                MainActivity.imageView.setImageResource(R.drawable.die2);
-//                            case 3:
-//                                MainActivity.imageView.setImageResource(R.drawable.die3);
-//                            case 4:
-//                                MainActivity.imageView.setImageResource(R.drawable.die4);
-//                            case 5:
-//                                MainActivity.imageView.setImageResource(R.drawable.die5);
-//                            case 6:
-//                                MainActivity.imageView.setImageResource(R.drawable.die6);
-//
-//                        }
-//                    }
-//
-//                });
-//            }
+            if (dieIndex == 1) {
+                mainHandler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        switch (rolled) {
+                            case 1:
+                                MainActivity.imageView2.setImageResource(R.drawable.die1);
+                                break;
+                            case 2:
+                                MainActivity.imageView2.setImageResource(R.drawable.die2);
+                                break;
+                            case 3:
+                                MainActivity.imageView2.setImageResource(R.drawable.die3);
+                                break;
+                            case 4:
+                                MainActivity.imageView2.setImageResource(R.drawable.die4);
+                                break;
+                            case 5:
+                                MainActivity.imageView2.setImageResource(R.drawable.die5);
+                                break;
+                            case 6:
+                                MainActivity.imageView2.setImageResource(R.drawable.die6);
+                                break;
+
+                        }
+                    }
+
+                });
+            }
+            if (dieIndex == 2) {
+                mainHandler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        switch (rolled) {
+                            case 1:
+                                MainActivity.imageView3.setImageResource(R.drawable.die1);
+                                break;
+                            case 2:
+                                MainActivity.imageView3.setImageResource(R.drawable.die2);
+                                break;
+                            case 3:
+                                MainActivity.imageView3.setImageResource(R.drawable.die3);
+                                break;
+                            case 4:
+                                MainActivity.imageView3.setImageResource(R.drawable.die4);
+                                break;
+                            case 5:
+                                MainActivity.imageView3.setImageResource(R.drawable.die5);
+                                break;
+                            case 6:
+                                MainActivity.imageView3.setImageResource(R.drawable.die6);
+                                break;
+
+                        }
+                    }
+
+                });
+            }
+            if (dieIndex == 3) {
+                mainHandler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        switch (rolled) {
+                            case 1:
+                                MainActivity.imageView4.setImageResource(R.drawable.die1);
+                                break;
+                            case 2:
+                                MainActivity.imageView4.setImageResource(R.drawable.die2);
+                                break;
+                            case 3:
+                                MainActivity.imageView4.setImageResource(R.drawable.die3);
+                                break;
+                            case 4:
+                                MainActivity.imageView4.setImageResource(R.drawable.die4);
+                                break;
+                            case 5:
+                                MainActivity.imageView4.setImageResource(R.drawable.die5);
+                                break;
+                            case 6:
+                                MainActivity.imageView4.setImageResource(R.drawable.die6);
+                                break;
+
+                        }
+                    }
+
+                });
+            }
+            if (dieIndex == 4) {
+                mainHandler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        switch (rolled) {
+                            case 1:
+                                MainActivity.imageView5.setImageResource(R.drawable.die1);
+                                break;
+                            case 2:
+                                MainActivity.imageView5.setImageResource(R.drawable.die2);
+                                break;
+                            case 3:
+                                MainActivity.imageView5.setImageResource(R.drawable.die3);
+                                break;
+                            case 4:
+                                MainActivity.imageView5.setImageResource(R.drawable.die4);
+                                break;
+                            case 5:
+                                MainActivity.imageView5.setImageResource(R.drawable.die5);
+                                break;
+                            case 6:
+                                MainActivity.imageView5.setImageResource(R.drawable.die6);
+                                break;
+
+                        }
+                    }
+
+                });
+            }
 
         }
     }
